@@ -30,7 +30,7 @@ function day() {
   root.style.setProperty("--text__hight-color", "#314158")
   root.style.setProperty("--text_lower-color", "#62748e")
   root.style.setProperty("--back_hill-color", "#78b757")
-  root.style.setProperty("--button-image", "url(/theme/button/sun_on_button.svg)")
+  root.style.setProperty("--button-image", "url(../theme/button/sun_on_button.svg)")
   one__hill.forEach(element => {element.classList.toggle('night')});
   two__hill.forEach(element => {element.classList.toggle('night')});
   three__hill.forEach(element => {element.classList.toggle('night')});
@@ -61,7 +61,7 @@ function night() {
   root.style.setProperty("--text__hight-color", "#f1f5f9")
   root.style.setProperty("--text_lower-color", "#cad5e2")
   root.style.setProperty("--back_hill-color", "#203321")
-  root.style.setProperty("--button-image", "url(/theme/button/moon_on_button.svg)")
+  root.style.setProperty("--button-image", "url(../theme/button/moon_on_button.svg)")
   one__hill.forEach(element => {element.classList.toggle('night')});
   two__hill.forEach(element => {element.classList.toggle('night')});
   three__hill.forEach(element => {element.classList.toggle('night')});
