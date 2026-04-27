@@ -13,7 +13,7 @@
   --four__hill-gradient: linear-gradient(180deg, #7fc45e 0%, #4a7f34 100%);
   --down__hill-gradient: linear-gradient(180deg, #4f8e36 0%, #3d6f2b 100%);
   --main-transition: 1.5s;
-  --button-image: url(../theme/button/sun_on_button.svg);
+  --button-image: url(theme/button/sun_on_button.svg);
 }
 
 
